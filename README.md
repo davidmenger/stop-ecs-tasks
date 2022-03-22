@@ -10,6 +10,10 @@
 
 **run with env variables**
 
+- `AWS_DEFAULT_REGION`
+- `AWS_ACCESS_KEY_ID`
+- `AWS_SECRET_ACCESS_KEY`
+
 ```
 node ./stop-cluster-tasks.js -c <ECS cluster name> -r <AWS region>
 ```
