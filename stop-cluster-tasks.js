@@ -73,7 +73,6 @@ let i = 0;
         await client.send(stopTask);
         process.stdout.write('.');
         i++;
-        break;
     }
 
     console.log('\nSUCCESS!')
